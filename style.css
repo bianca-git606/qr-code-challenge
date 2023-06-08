@@ -1,0 +1,30 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 22%;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 2px 2px 25px hsl(220, 15%, 55%);
+    border-radius: 1em;
+}
+.title {
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+}
+.description {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+img {
+    max-height:100%; 
+    max-width:100%;
+    border-radius: .6em;
+}
